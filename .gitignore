@@ -1,0 +1,57 @@
+# ✅ Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# ✅ Django-specific
+db.sqlite3
+/media/
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3-journal
+*.swp
+.DS_Store
+
+# ✅ Virtual Environment
+venv/
+env/
+*.env
+
+# ✅ Ignore IDE Files
+.vscode/
+.idea/
+*.iml
+
+# ✅ Ignore Migrations (Optional, but recommended to keep tracked)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# ✅ Ignore Secrets & Credentials
+.env
+*.json
+*.pem
+*.key
+
+# ✅ Ignore Node.js Dependencies (If using React)
+node_modules/
+build/
+dist/
+
+# ✅ Ignore Compiled Code
+*.so
+
+# ✅ Ignore Cache Files
+__pycache__/
+*.cache
+*.log
+
+# ✅ Ignore Docker Files (If using Docker)
+docker-compose.override.yml
+docker-compose.prod.yml
+.env.docker
